@@ -12,6 +12,28 @@ Advanced concepts used in the project include CTEs (Common Table Expression), Te
 SELECT *
 FROM stats;
 
+SELECT *
+FROM bowl;
+
+-- Checking data types and other information about the tables
+DESCRIBE stats;
+
+DESCRIBE bowl;
+
+-- Checking total values in both tables
+
+SELECT COUNT(*)
+FROM stats;
+
+SELECT COUNT(*)
+FROM bowl;
+
+
+
+-- EXPLORARY DATA ANALYSIS
+
+
+
 -- Top 5 Players (based on most runs scored) in T20 format
 SELECT player, team, type, runs
 FROM stats
